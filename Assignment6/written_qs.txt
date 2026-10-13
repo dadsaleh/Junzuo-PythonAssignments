@@ -1,0 +1,7 @@
+1. A for loop is better suited because the temp range is known BEFORE the loop starts, using range()
+   will auto advance through each celsius value. A while loop does in fact still work, but it requires
+   manually initializing and updating the counter
+
+2. A for loop is more sutiable since it reads each line directly, it will auto stop at the end of
+    file. Once a match is found, 'break' stops the search. A while loop requires manually reading
+    the next line and then checking for the end of the file.
