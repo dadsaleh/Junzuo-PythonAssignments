@@ -1,5 +1,6 @@
 # Local practice files
 /test/
+/prac
 
 # Python bytecode and caches
 __pycache__/
