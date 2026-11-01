@@ -43,9 +43,6 @@ def main():
 
 
 def process_row(row):
-    """Given one row from the grades file, return that student's
-    weighted final grade (bypass the Name and StudentID columns)."""
-
     scores = [float(x) for x in row.split(",")[2:]]
 
     tests = scores[0:4]
